@@ -37,6 +37,9 @@ deploy:
     secret_access_key: $AWS_SECRET_KEY
     bucket: freelec-springboot2-alan-build
     key: freelec-springboot2-webservice.zip
+    bundle_type: zip
+    application: freelec-springboot2-webservice
+    deployment_group: freelec-springboot2-webservice-group
     region: ap-northeast-2
     wait_until_deployed: true
 
